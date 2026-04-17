@@ -1,0 +1,1 @@
+pyinstaller --onefile --windowed --name "DeflectionCheckTool" --icon "def.ico" --add-data "data;data" --add-data "utils;utils" --add-data "output;output" --add-data "ui;ui" main.py

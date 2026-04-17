@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"from ui.main_window import MainWindow; print\\('OK'\\)\")",
+      "Bash(python -c \"from ui.main_window import MainWindow; from output.exporters import ExcelExporter, TxtExporter; print\\('OK'\\)\")",
+      "Bash(python3)",
+      "Bash(python3 -c ':*)",
+      "Bash(unzip -p \"Deflection check for non linear_tiep.xlsm\" xl/workbook.xml)",
+      "Bash(unzip -p \"Deflection check for non linear_tiep.xlsm\" xl/sharedStrings.xml)",
+      "Read(//tmp/**)",
+      "Bash(unzip -p \"Deflection check for non linear_tiep.xlsm\" xl/worksheets/sheet4.xml)",
+      "Bash(unzip -p \"Deflection check for non linear_tiep.xlsm\" xl/worksheets/sheet10.xml)",
+      "Bash(unzip -p \"Deflection check for non linear_tiep.xlsm\" xl/worksheets/sheet3.xml)",
+      "Bash(unzip -p \"Deflection check for non linear_tiep.xlsm\" xl/worksheets/sheet5.xml)",
+      "Bash(unzip -p \"Deflection check for non linear_tiep.xlsm\" xl/worksheets/sheet8.xml)"
+    ]
+  }
+}
